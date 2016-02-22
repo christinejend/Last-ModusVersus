@@ -1,0 +1,129 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_topbar.main-nav.scss - Design styles for main-nav
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+// BLOCK main-nav
+.main-nav {
+    padding-right: 5.6rem;
+    text-align: right;
+    // ELEMENT list
+    &__list {
+        display: inline-block;
+        font-size: 0;
+        // MODIFIER is-dropdown
+        &--is-dropdown {
+            display: none;
+            padding: .5rem;
+            background: $darkFocusColor;
+            border-radius: .5rem;
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                top: -1.2rem;
+                left: 1.2rem;
+                border: .6rem solid transparent;
+                border-bottom-color: $darkFocusColor;
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                display: block;
+                top: -4.5rem;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                z-index: -1;
+            }
+        }
+    }
+    // ELEMENT elt
+    &__elt {
+        display: inline-block;
+        & + & {
+            margin-left: 1.4rem;
+        }
+        // MODIFIER has-dropdown
+        &--has-dropdown {
+            // STATE hover
+            &:hover {
+                > .main-nav__link {
+                    background: $focusColor;
+                    box-shadow: 0 .3rem 0 $darkFocusColor;
+                }
+                .main-nav__list--is-dropdown {
+                    display: block;
+                }
+            }
+        }
+        // MODIFIER is-sub-elt
+        &--is-sub-elt {
+            display: block;
+            border-radius: .5rem;
+            background: $focusColor;
+            & + & {
+                margin-left: 0;
+                margin-top: .5rem;
+            }
+            &::before {
+                content: none;
+            }
+            // STATE hover
+            &:hover {
+                background: $lightMainColor;
+            }
+        }
+    }
+    // ELEMENT link
+    &__link {
+        display: block;
+        padding: 1rem 1.4rem;
+        border-radius: .4rem;
+        font: 600 1.4rem/1 $openSansStack;
+        color: $menuTextColor;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        // STATE hover
+        &:hover {
+            background: $focusColor;
+            box-shadow: 0 .3rem 0 $darkFocusColor;
+        }
+        // MODIFIER is-active
+        &--is-active {
+            background: $mainColor;
+            box-shadow: 0 .3rem 0 $darkMainColor;
+        }
+        // MODIFIER --is-dropdown-head
+        &--is-dropdown-head {
+            &::before {
+                content: "";
+                margin-right: .8rem;
+                font: normal 1.4rem $glyphs;
+            }
+        }
+        // MODIFIER is-sub-link
+        &--is-sub-link {
+            padding: 1rem;
+            box-shadow: none;
+            font: 600 1.3rem/1 $openSansStack;
+            text-transform: none;
+            text-align: left;
+            &::before {
+                content: "";
+                margin-right: .8rem;
+                font: normal 1.3rem $glyphs;
+            }
+            // STATE hover
+            &:hover {
+                background: $lightMainColor;
+            }
+        }
+    }
+}

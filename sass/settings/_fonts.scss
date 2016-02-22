@@ -1,0 +1,85 @@
+/* Modus Versus Slicing
+ *
+ * /sass/settings/_fonts.scss - Global fonts variables & fonts loading
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+// Variables
+$openSansStack: "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$glyphs: "Glyphs";
+
+// OpenSans
+@font-face {
+    font-family: 'OpenSans';
+    src: url('#{ $fontPath }open-sans/opensans-regular-webfont.eot');
+    src: url('#{ $fontPath }open-sans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{ $fontPath }open-sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('#{ $fontPath }open-sans/opensans-regular-webfont.woff') format('woff'),
+         url('#{ $fontPath }open-sans/opensans-regular-webfont.ttf') format('truetype'),
+         url('#{ $fontPath }open-sans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('#{ $fontPath }open-sans/opensans-italic-webfont.eot');
+    src: url('#{ $fontPath }open-sans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{ $fontPath }open-sans/opensans-italic-webfont.woff2') format('woff2'),
+         url('#{ $fontPath }open-sans/opensans-italic-webfont.woff') format('woff'),
+         url('#{ $fontPath }open-sans/opensans-italic-webfont.ttf') format('truetype'),
+         url('#{ $fontPath }open-sans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('#{ $fontPath }open-sans/opensans-semibold-webfont.eot');
+    src: url('#{ $fontPath }open-sans/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{ $fontPath }open-sans/opensans-semibold-webfont.woff2') format('woff2'),
+         url('#{ $fontPath }open-sans/opensans-semibold-webfont.woff') format('woff'),
+         url('#{ $fontPath }open-sans/opensans-semibold-webfont.ttf') format('truetype'),
+         url('#{ $fontPath }open-sans/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('#{ $fontPath }open-sans/opensans-bold-webfont.eot');
+    src: url('#{ $fontPath }open-sans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{ $fontPath }open-sans/opensans-bold-webfont.woff2') format('woff2'),
+         url('#{ $fontPath }open-sans/opensans-bold-webfont.woff') format('woff'),
+         url('#{ $fontPath }open-sans/opensans-bold-webfont.ttf') format('truetype'),
+         url('#{ $fontPath }open-sans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('#{ $fontPath }open-sans/opensans-bolditalic-webfont.eot');
+    src: url('#{ $fontPath }open-sans/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{ $fontPath }open-sans/opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('#{ $fontPath }open-sans/opensans-bolditalic-webfont.woff') format('woff'),
+         url('#{ $fontPath }open-sans/opensans-bolditalic-webfont.ttf') format('truetype'),
+         url('#{ $fontPath }open-sans/opensans-bolditalic-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+// Fontawesome
+@font-face {
+    font-family: 'Glyphs';
+    src: url('#{ $fontPath }fontawesome/fontawesome-webfont.eot');
+    src: url('#{ $fontPath }fontawesome/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{ $fontPath }fontawesome/fontawesome-webfont.woff2') format('woff2'),
+         url('#{ $fontPath }fontawesome/fontawesome-webfont.woff') format('woff'),
+         url('#{ $fontPath }fontawesome/fontawesome-webfont.ttf') format('truetype'),
+         url('#{ $fontPath }fontawesome/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

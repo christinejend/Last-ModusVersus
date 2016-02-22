@@ -1,0 +1,133 @@
+/* homepage */
+
+/* homepage services section */
+
+[id="wrapper"] > main .services {
+    width: 117rem;
+    margin: 0 auto;
+}
+
+[id="wrapper"] > main .services .focus {
+    position: relative;
+    margin: 0 auto 5rem;
+    padding: 2.4rem 28rem 2.4rem 3rem;
+    background: #ececec;
+    border-radius: .4rem;
+}
+
+[id="wrapper"] > main .services .focus h2 {
+    margin: 0 auto 1rem;
+    font: 600 3rem/1.2 "OpenSans";
+    color: #7f8c8c;
+}
+
+[id="wrapper"] > main .services .focus p {
+    font: normal 1.3rem "OpenSans";
+}
+
+[id="wrapper"] > main .services .focus .callout {
+    display: block;
+    position: absolute;
+    right: 3rem;
+    bottom: 2.4rem;
+    min-width: 20rem;
+    padding: 1.8rem .8rem;
+    background: #e8645a;
+    border-radius: .4rem;
+    box-shadow: 0 .3rem 0 0 #e2534b;
+    font: 600 1.3rem/1 "OpenSans";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+[id="wrapper"] > main .services ul {}
+
+[id="wrapper"] > main .services ul li {
+    width: 23.076923077%; /* 270 / 1170 * 100 */
+    float: left;
+}
+
+[id="wrapper"] > main .services ul li a {
+    position: relative;
+    display: block;
+    min-height: 31rem;
+    padding: 5rem 2rem 4.5rem;
+    background: #f8f8f8;
+    border-radius: .4rem;
+    box-shadow: 0 .3rem 0 #e6e6e6;
+    text-decoration: none;
+    text-align: center;
+    transition: all .25s ease-in-out;
+}
+
+[id="wrapper"] > main .services ul li a h3 {
+    margin: 0 auto 3.2rem;
+    font: bold 1.3rem "OpenSans";
+    color: #7f8c8c;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+[id="wrapper"] > main .services ul li a h3::before {
+    display: block;
+    margin: 0 auto 1.6rem;
+    font: normal 6rem/1 "Glyphs";
+    color: #62bdbd;
+    transition: all .25s ease-in-out;
+}
+
+[id="wrapper"] > main .services ul li a h3.icon-thumb::before { content: ""; }
+
+[id="wrapper"] > main .services ul li a h3.icon-key::before { content: ""; }
+
+[id="wrapper"] > main .services ul li a h3.icon-flag::before { content: ""; }
+
+[id="wrapper"] > main .services ul li a h3.icon-flask::before { content: ""; }
+
+[id="wrapper"] > main .services ul li a p {
+    font: normal 1.3rem "OpenSans";
+    color: #777;
+}
+
+[id="wrapper"] > main .services ul li a .fake-button {
+    display: block;
+    position: absolute;
+    left: 3.5rem;
+    right: 3.5rem;
+    bottom: 0;
+    padding: 1.8rem .8rem;
+    background: #62a29a;
+    border-radius: .4rem;
+    box-shadow: 0 .3rem 0 0 #528b86;
+    font: 600 1.4rem/1 "OpenSans";
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transform: translateY( 50% );
+    transition: all .25s ease-in-out;
+}
+
+[id="wrapper"] > main .services ul li a:hover {
+    background: white;
+}
+
+[id="wrapper"] > main .services ul li a:hover h3::before {
+    color: #e8645a;
+}
+
+[id="wrapper"] > main .services ul li a:hover .fake-button {
+    background: #e8645a;
+    box-shadow: 0 .3rem 0 0 #e2534b;
+}
+
+[id="wrapper"] > main .services ul li + li {
+    margin-left: 2.564102564%; /* 30 / 1170 * 100 */
+}
+
+/* homepage why section */
+
+[id="wrapper"] > main .why {
+    display: none;
+}

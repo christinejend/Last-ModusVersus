@@ -1,0 +1,12 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_topbar.scss - Design styles for topbar
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+.topbar {
+    padding: 2.8rem 0 0;
+    background: $lightMainColor url( "#{ $imgPath }navbar-bcg-pattern.png" ) bottom left repeat-x;
+}

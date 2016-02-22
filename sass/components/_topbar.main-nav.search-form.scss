@@ -1,0 +1,84 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_topbar.main-nav.search-form.scss - Non-cosmetic styles for search-form
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+// BLOCK search-form
+.search-form {
+    // ELEMENT toggle
+    &__toggle {
+        padding: .8rem 1.4rem .9rem;
+        border-radius: .4rem;
+        font-size: 0;
+        color: $menuTextColor;
+        text-align: center;
+        cursor: pointer;
+        &::before {
+            content: "";
+            font: normal 1.6rem/1 $glyphs;
+        }
+        // STATE hover
+        &:hover {
+            background: $focusColor;
+            box-shadow: 0 .3rem 0 $darkFocusColor;
+        }
+    }
+    // ELEMENT form-elt
+    &__form-elt {
+        padding: .5rem;
+        background: $darkFocusColor;
+        border-radius: .4rem;
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 0;
+            height: 0;
+            top: -1.2rem;
+            right: 1.7rem;
+            border: .6rem solid transparent;
+            border-bottom-color: $darkFocusColor;
+        }
+    }
+    // ELEMENT input
+    &__input {
+        display: block;
+        width: 100%;
+        margin: 0 auto .5rem;
+        padding: .25rem .5rem;
+        background: white;
+        border-radius: .2rem;
+        border: 0;
+        font: normal 1.6rem/1 $openSansStack;
+        color: $laborTextColor;
+        &:focus {
+            outline: 0;
+        }
+    }
+    // ELEMENT button
+    &__button {
+        display: block;
+        width: 100%;
+        padding: .5rem .5rem;
+        background: $lightMainColor;
+        border-radius: .2rem;
+        border: 0;
+        font: normal 1.6rem/1 $openSansStack;
+        color: $menuTextColor;
+        text-align: center;
+        cursor: pointer;
+        // STATE hover
+        &:hover {
+            background: $mainColor;
+        }
+    }
+    // MODIFIER js-is-open
+    &--js-is-open {
+        &__form-elt {
+
+        }
+    }
+}

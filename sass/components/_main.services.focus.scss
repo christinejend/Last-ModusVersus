@@ -1,0 +1,31 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_services.focus.scss - Design styles for services - focus
+ *
+ * coded by Chris!
+ * started at 16/02/2016
+ */
+$font: "OpenSans";
+.focus {
+	margin: 0 auto 5rem;
+	padding: 2.4rem 28rem 2.4rem 3rem;
+	background: #ececec none repeat scroll 0 0;
+	border-radius: .4rem;
+	position: relative;}
+	h2{
+		font: 600 3rem/1.2 $openSansStack;
+		color:$headingTextColor;}
+	p{
+		font: normal 1.3rem/1.5 $openSansStack;}
+	.callout{
+		min-width: 20rem;
+		padding: 1.8rem .8rem;
+		background: #e8645a;
+		border-radius: 0.4rem;
+		box-shadow: 0 0.3em 0 0 #e2534b;
+		font: 600  1.3rem/1 $openSansStack; /*semibold*/
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		}

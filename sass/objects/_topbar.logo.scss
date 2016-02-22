@@ -1,0 +1,19 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_topbar.logo.scss - Non-cosmetic styles for logo
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+$logoWidth: 19.2rem;
+
+.logo {
+    position: relative;
+    width: $logoWidth;
+    margin: 0 auto;
+    left: ( $containerWidth - $logoWidth ) / 2 * -1;
+    &__link {
+        height: 2.2rem;
+    }
+}

@@ -1,0 +1,47 @@
+/* Modus Versus Slicing
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+// 1. Settings - Variables globales
+@import "settings/paths";
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/sizes";
+
+// 2. Tools - Mixins globaux, functions & outils
+@import "tools/utils";
+
+// 3. Generic - Style de remise à zéro (reset, normalize…)
+@import "generic/meyer-reset";
+@import "generic/box-sizing";
+
+// 4. Base - Éléments bruts
+@import "base/root";
+
+// 5. Objects - Éléments de mise en forme non-cosmétique
+@import "objects/wrapper";
+@import "objects/header";
+@import "objects/topbar";
+@import "objects/topbar.logo";
+@import "objects/topbar.main-nav";
+@import "objects/topbar.main-nav.search-form";
+@import "objects/slider";
+
+// 6. Components - Design des composants, morceaux d'UI
+@import "components/topbar";
+@import "components/topbar.logo";
+@import "components/topbar.main-nav";
+@import "components/topbar.main-nav.search-form";
+
+// 7. Trumps - Styles spécifiques à un élément
+
+// ----- tmp
+/*.wrapper {
+    > main, > footer {
+        display: none;
+    }
+}*/
