@@ -1,0 +1,33 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_services.focus.scss - Non-cosmetic styles for header
+ *
+ * coded by Chris J.
+ * started at 23/02/2016
+ */
+.services{
+	&__list{
+		&::after{
+     		content: " ";
+     		display: block;
+			clear: both;
+		}
+	}
+	&__elt{
+	width: 25%;  /* 270/1170 *100 */
+	float: left;
+	}
+	&__link{
+		position: relative;
+		min-height: 31.5rem;
+		display: block;	
+		/*margin-bottom: 10rem;*/
+		min-height: 31.5rem;	
+	}
+	&__heading{
+		&::before{
+			margin: 0 auto 2rem;
+			display: block;
+		}	
+	}
+}

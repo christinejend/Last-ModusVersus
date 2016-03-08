@@ -1,0 +1,26 @@
+/* Modus Versus Slicing
+ *
+ * /sass/Components/_slide-dots.scss -  Design styles for col1
+ *
+ * coded by Chris J.
+ * started at 01/03/2016
+ */
+ .slide-nav{
+ 	font-size: 3rem
+ 	&__slide-next{
+		position: relative;
+		left: 140rem;
+		bottom: 29rem;
+		&::before{
+			content: "A";
+		}
+ 	}
+ 	&__slide-previous{
+ 		position: relative;
+ 		bottom: 29rem;
+ 		&::before{
+			content: "A";
+			;
+		}
+ 	}
+ }

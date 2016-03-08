@@ -1,0 +1,30 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_col-right.scss - Non-cosmetic styles for why
+ *
+ * coded by Chris J.
+ * started at 27/02/2016
+ */
+
+   .col-right{
+ 	float: right;
+ 	margin: -8rem 9rem 0 0;
+ 	&__heading{
+ 		margin-top: -0.5rem;
+ 		padding-bottom: 1rem;
+ 	}
+ 	/*p::before{
+ 		content: " ";
+ 		display: block;
+ 		position: absolute;
+ 		width: 0;
+ 		height: 0;
+ 		bottom: -0.75rem;
+ 		left: 2rem;
+ 		border: 0.75rem solid transparent;
+ 		border-bottom-color: #FFF
+ 		z-index: 1000;
+ 		transform: rotate(45deg);
+
+ 	}*/
+ }

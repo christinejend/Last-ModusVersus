@@ -1,0 +1,16 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_col-middle.scss - Non-cosmetic styles for why
+ *
+ * coded by Chris J.
+ * started at 25/02/2016
+ */
+ .col-middle{
+		&__choice{
+			width: 55rem;
+			margin: 0 auto;
+		}
+		&__heading{
+		margin: 4rem 0 0 9.5rem;
+		}
+}

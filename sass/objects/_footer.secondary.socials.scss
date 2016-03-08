@@ -1,0 +1,14 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_socials.scss - NO  Design styles for col1
+ *
+ * coded by Chris J.
+ * started at 01/03/2016
+ */
+.socials{
+	float: right;
+	margin-top:-2rem;
+	&__elt{
+		display: inline-block;
+	}
+}

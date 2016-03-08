@@ -1,0 +1,20 @@
+/* Modus Versus Slicing
+ *
+ * /sass/Components/_slide-dots.scss -  Design styles for col1
+ *
+ * coded by Chris J.
+ * started at 01/03/2016
+ */
+ .slide-dots{
+ 	text-align: center;
+ 	&__active, &__one, &__three{
+ 		background-color: #7f8c8c;
+ 		width: 6rem;
+ 		display: inline-block;
+		font-size: 0;
+		height: 1rem;
+ 	}
+ 	&__active{
+ 		background-color:#e8645a;
+ 	}
+ }

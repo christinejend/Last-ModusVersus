@@ -1,0 +1,20 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_services.focus.scss - Non-cosmetic styles for header
+ *
+ * coded by Chris J.
+ * started at 23/02/2016
+ */
+ .clients{
+ 	margin-left: 7rem;
+    margin-top: 11rem;
+ 	&__elt{
+ 	display: inline-block;
+ 	padding: 5rem 1rem;
+ 	}
+ 	&__heading{
+ 		margin-left: 2rem;
+ 	font-size: 1.8rem;
+    font-weight: bold;
+ 	}
+ }

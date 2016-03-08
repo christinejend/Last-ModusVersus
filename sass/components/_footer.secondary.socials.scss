@@ -1,0 +1,42 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_socials.scss - Design styles for socials
+ *
+ * coded by Chris J.
+ * started at 23/02/2016
+ */
+ .socials{
+ 	&__facebook{
+
+ 		&::before{
+ 			color: white;
+    		content: "";
+    		font: 3rem $glyphs;
+    		vertical-align: middle;
+ 		}
+ 	}
+ 	&__twitter{
+ 		&::before{
+ 			color: white;
+    		content:  "";
+    		font: 3rem $glyphs;
+    		vertical-align: middle;
+ 		}
+ 	}
+ 	&__google-plus{
+ 		&::before{
+			color: white;
+    		content: "";
+    		font: 3rem $glyphs;
+    		vertical-align: middle;
+ 		}
+ 	}
+ 	&__rss-feed{
+ 		&::before{
+			color: white;
+    		content: "";
+    		font: 3rem $glyphs;
+    		vertical-align: middle;
+ 		}
+ 	}
+ }

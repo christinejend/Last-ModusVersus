@@ -1,0 +1,21 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_footer.scss - Design styles for footer
+ *
+ * coded by Chris J.
+ * started at 01/03/2016
+ */
+ footer{
+ 	background-image: url("../../assets/img/navbar-bcg-pattern.png") repeat-x scroll center top;
+ 	background-color:  #76c7c0;
+    color: white;
+    font: 1.4rem "OpenSans";
+    &__heading{
+    	background: transparent url("../../assets/img/logo.svg") no-repeat scroll center;
+		font-size: 0;
+
+    }
+    &__link{
+    	text-decoration: none;
+    }
+ }

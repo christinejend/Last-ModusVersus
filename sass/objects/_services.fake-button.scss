@@ -1,0 +1,15 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_fake-button.scss - Non-cosmetic styles for header
+ *
+ * coded by Chris J.
+ * started at 23/02/2016
+ */
+ .fake-button{
+	display:block;
+	position: absolute;
+	left:3.5rem;
+	right: 3.5rem;
+	bottom:0;
+	padding: 1.8rem 0.8rem;
+ }

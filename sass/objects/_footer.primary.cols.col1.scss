@@ -1,0 +1,21 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_col1.scss - NO Design styles for col1
+ *
+ * coded by Chris J.
+ * started at 01/03/2016
+ */
+.col1{
+	margin-left: 17rem;
+	&__description{
+		width: 40rem;
+		padding: 3rem 0rem;
+		margin-top: 2.7rem;
+	}
+	&__heading{
+		visibility: hidden;
+	}
+	&__list{
+		display: inline-block;
+	}
+ }

@@ -1,0 +1,28 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_why.scss - Design styles for why
+ *
+ * coded by Chris J.
+ * started at 23/02/2016
+ */
+ .why{
+ 	&__heading{
+ 	text-align: center;
+ 	color: #e8645a;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font: normal 3rem/1.5 "OpenSans";
+	padding-bottom: 5rem;
+	margin-top: 5rem;
+
+	}
+	&__description{
+		text-align: center;
+		color: $headingTextColor;
+		font: normal 1rem/1.5 "OpenSans";
+		display: block;
+	}
+	&__figure{
+		text-align: center;
+	}
+ }

@@ -1,0 +1,41 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_service.scss - Design styles for service
+ *
+ * coded by Chris J.
+ * started at 23/02/2016
+ */
+.services{
+	&__link{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 9rem;
+	background: #f8f8f8;
+	border-radius: .4rem;
+	
+	text-align: center;
+	
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;	
+	}
+	&__heading{
+		font: bold 1.3rem/1.5 "OpenSans";
+		color: #7f8c8c;
+		&::before{
+			font: normal 6rem/1 "Glyphs";
+			color: #62bdbd;
+			-webkit-transition: all .25s ease-in-out;
+	   		-moz-transition: all .25s ease-in-out;
+	    	-ms-transition: all .25s ease-in-out;
+	     	-o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;	
+		}
+	}
+	&__description{
+		font: normal 1.3rem/1.5 "OpenSans";
+		color: #777;
+	}
+}

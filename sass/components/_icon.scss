@@ -1,0 +1,27 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_icon.scss - Design styles for service
+ *
+ * coded by Chris J.
+ * started at 23/02/2016
+ */
+ .icon-thumb{
+	&::before{
+		content:"";	
+	}
+ }
+.icon-key{
+ 	&::before{
+ 		content:"";	
+ 	}
+ }
+.icone-flag{
+ 	&::before{
+ 		content: "A";	
+ 	}
+ }
+.icone-flask{
+	&::before{
+		content:"A";
+	}
+}

@@ -1,0 +1,29 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_services.focus.scss - Design styles for logo
+ *
+ * coded by Chris J.
+ * started at 23/02/2016
+ */
+
+ .focus{
+ 	background: #ececec;
+	border-radius: 0.4rem;
+	&__heading{
+	font: 600 3rem/1.2 "OpenSans";
+	color:#7f8c8c;
+	}
+	&__text{
+	font: normal 1.3rem/1.5 "OpenSans";
+	}
+	&__callout{ /*Bouton Rouge*/
+	background: #e8645a;
+	border-radius: 0.4rem;
+	box-shadow: 0 0.3em 0 0 #e2534b;
+	font: 600  1.3rem/1 "OpenSans"; /*semibold*/
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;	
+	}
+ }

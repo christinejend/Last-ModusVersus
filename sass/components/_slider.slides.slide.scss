@@ -1,0 +1,32 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_slide.scss - Design styles for slide
+ *
+ * coded by Chris J.
+ * started at 23/02/2016
+ */
+.slide{
+	&__active{
+		background-image: url(../../assets/img/slide.png);
+		background-size: cover;
+		min-height: 50rem;
+		background-position: 0 -7rem;
+	}
+	&__heading{
+		background-color: $focusColor;
+		color: white;
+		font: 800 3rem/1.2 "OpenSans";
+		padding: 0rem 1rem;
+		text-transform: uppercase;
+		margin-left: 10rem;
+	}
+	&__text{
+		background: rgba(0, 0, 0, 0.5);
+		width: 40rem;
+		padding: 1.5rem 1.5rem;
+		color: $menuTextColor;
+		font: 1.3rem/1.2 "OpenSans";
+		display: block;
+		text-align: center;
+	}
+}
