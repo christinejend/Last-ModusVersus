@@ -18,6 +18,7 @@
 // 3. Generic - Style de remise à zéro (reset, normalize…)
 @import "generic/meyer-reset";
 @import "generic/box-sizing";
+@import "generic/link-decoration";
 
 // 4. Base - Éléments bruts
 @import "base/root";
@@ -29,15 +30,51 @@
 @import "objects/topbar.logo";
 @import "objects/topbar.main-nav";
 @import "objects/topbar.main-nav.search-form";
-@import "objects/slider";
+@import "objects/services";
+@import "objects/services.focus";
+@import "objects/services.list";
+@import "objects/services.fake-button";
+@import "objects/why";
+@import "objects/why.cols.col-middle";
+@import "objects/why.cols.col-left";
+@import "objects/why.cols.col-right";
+@import "objects/why.clients";
+@import "objects/why.clients.nav";
+@import "objects/footer.primary.cols.col1";
+@import "objects/footer.primary.cols.col2";
+@import "objects/footer.primary.cols.col3";
+@import "objects/footer.primary.cols.col4";
+@import "objects/footer.primary";
+@import "objects/footer";
+@import "objects/footer.secondary";
+@import "objects/footer.secondary.socials";
+@import "objects/slider.slides.slide";
 
 // 6. Components - Design des composants, morceaux d'UI
 @import "components/topbar";
 @import "components/topbar.logo";
 @import "components/topbar.main-nav";
 @import "components/topbar.main-nav.search-form";
-
+@import "components/services.focus";
+@import "components/services";
+@import "components/icon";
+@import "components/why";
+@import "components/why.cols.col-middle";
+@import "components/why.cols.col-left";
+@import "components/why.cols.col-right";
+@import "components/why.clients";
+@import "components/footer";
+@import "components/footer.primary.cols.col1";
+@import "components/footer.primary.cols.col2";
+@import "components/footer.primary.cols.col3";
+@import "components/footer.primary.cols.col4";
+@import "components/footer.secondary";
+@import "components/slider.slides.slide-nav.slide-dots";
+@import "components/slider.slides.slide-nav";
+@import "components/slider.slides.slide";
+@import "components/footer.secondary.socials";
 // 7. Trumps - Styles spécifiques à un élément
+@import "trumps/services.fake-button";
 
 // ----- tmp
 /*.wrapper {

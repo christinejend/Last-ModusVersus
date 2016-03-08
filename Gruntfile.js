@@ -14,23 +14,10 @@ module.exports = function( grunt ) {
     grunt.loadNpmTasks( "grunt-contrib-watch" );
     grunt.loadNpmTasks( "grunt-cowsay" );
     grunt.loadNpmTasks( "grunt-eslint" );
-    grunt.loadNpmTasks( "grunt-browser-sync" );
     grunt.loadNpmTasks( "grunt-sass" );
 
     // 2. configure tasks
     grunt.initConfig( {
-        // browser sync
-        "browserSync": {
-            "preview": {
-                "bsFiles": {
-                    "src": "css/*.css"
-                },
-                "options": {
-                    "proxy": "localhost:12345", // TODO: adapt to you configuration
-                    "watchTask": true
-                }
-            }
-        },
         // cowsay
         "cowsay": {
             "done": {

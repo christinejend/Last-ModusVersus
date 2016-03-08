@@ -11,3 +11,17 @@ html {
     font: normal 62.5%/1.25 $openSansStack;
     color: $laborTextColor;
 }
+.why, .col{
+	margin: 0 auto;
+	width: 117rem;
+	font: normal 1.3rem/1.5 "OpenSans";
+}
+ .col1, .col2, .col3, .col4{
+ 	display: inline-block;
+ 	vertical-align: top;
+ }
+ .col2, .col3, .col4{
+ 	margin: 3rem;
+ }
+
+

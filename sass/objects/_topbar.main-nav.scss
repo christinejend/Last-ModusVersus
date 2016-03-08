@@ -30,6 +30,7 @@ $mainNavWidth: 96rem;
         // MODIFIER has-dropdown
         &--has-dropdown {
             position: relative;
+            z-index: 55;
         }
         // MODIFIER is-sub-elt
         &--is-sub-elt {
