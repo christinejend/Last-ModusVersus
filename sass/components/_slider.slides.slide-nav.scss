@@ -6,21 +6,30 @@
  * started at 01/03/2016
  */
  .slide-nav{
- 	font-size: 3rem
+ 	font-size: 0rem;
  	&__slide-next{
 		position: relative;
-		left: 140rem;
+		left: 145rem;
 		bottom: 29rem;
 		&::before{
-			content: "A";
+			color: white;
+			content: " ";
+			font-size: 3rem;
+			background-color: $focusColor;
+ 			padding: 0.1rem 0.1rem 0.1rem 1rem;
+ 			box-shadow: -0.1em 0.1em 0.1em 0 #e2534b;
 		}
  	}
  	&__slide-previous{
  		position: relative;
  		bottom: 29rem;
  		&::before{
-			content: "A";
-			;
+			content: " ";
+			color: white;
+			font-size: 3rem;
+			background-color: $focusColor;
+ 			padding: 0.1rem 0.1rem 0.1rem 1rem;
+ 			box-shadow: 0.1em 0.1em 0.1em 0 #e2534b;
 		}
  	}
  }

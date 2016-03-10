@@ -18,7 +18,7 @@
 // 3. Generic - Style de remise à zéro (reset, normalize…)
 @import "generic/meyer-reset";
 @import "generic/box-sizing";
-
+@import "generic/link-decoration";
 
 // 4. Base - Éléments bruts
 @import "base/root";
@@ -64,6 +64,7 @@
 @import "components/why.cols.col-right";
 @import "components/why.clients";
 @import "components/footer";
+@import "components/footer.primary.cols";
 @import "components/footer.primary.cols.col1";
 @import "components/footer.primary.cols.col2";
 @import "components/footer.primary.cols.col3";

@@ -1,3 +1,14 @@
-.secondary{
+/* Modus Versus Slicing
+ *
+ * /sass/components/_secondary.scss - Design styles for secondary
+ *
+ * coded by Chris J.
+ * started at 23/02/2016
+ */
+
+ .secondary{
 	background-color: rgb(107, 180, 173);
+	&__link{
+		margin-left: 16rem;
+	}
 }

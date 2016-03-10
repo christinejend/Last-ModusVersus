@@ -6,8 +6,12 @@
  * started at 23/02/2016
  */
  .socials{
- 	&__facebook{
 
+    &__elt{
+        margin-right: 2.5rem;
+    }
+ 	&__facebook{
+        font-size: $hidden;
  		&::before{
  			color: white;
     		content: "";
@@ -16,6 +20,7 @@
  		}
  	}
  	&__twitter{
+        font-size: $hidden;
  		&::before{
  			color: white;
     		content:  "";
@@ -24,6 +29,7 @@
  		}
  	}
  	&__google-plus{
+        font-size: $hidden;
  		&::before{
 			color: white;
     		content: "";
@@ -32,9 +38,10 @@
  		}
  	}
  	&__rss-feed{
+        font-size: $hidden;
  		&::before{
 			color: white;
-    		content: "";
+    		content: "";
     		font: 3rem $glyphs;
     		vertical-align: middle;
  		}

@@ -1,6 +1,6 @@
 /* Modus Versus Slicing
  *
- * /sass/component/_col2.scss -  Design styles for col4
+ * /sass/component/_col2.scss -  Design styles for col2
  *
  * coded by Chris J.
  * started at 01/03/2016
@@ -15,7 +15,7 @@
 	}
 	&__elt{
 			&::before{
-			 content: " ";
+			 content: "    ";
    			 font: 1rem/1 "Glyphs";
 		}
 	}

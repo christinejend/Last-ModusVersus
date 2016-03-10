@@ -13,4 +13,19 @@
     font-weight: bold;
     margin-bottom: 3rem;
  	}
- }
+ 	&__previous{
+ 		&::before{
+ 			font-size: 2rem;
+ 			content: " ";
+ 			color: gray;
+ 		}
+ 	}
+ 	&__next{
+
+ 		&::before{
+ 			font-size: 2rem;
+ 			content: " ";
+ 			color: gray;
+ 		}
+ 	}
+  }

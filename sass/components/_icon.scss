@@ -12,16 +12,17 @@
  }
 .icon-key{
  	&::before{
- 		content:"";	
+ 		content:"";
  	}
+ 	
  }
-.icone-flag{
+.icon-flag{
  	&::before{
- 		content: "A";	
+ 		content: "";	
  	}
  }
-.icone-flask{
+.icon-flask{
 	&::before{
-		content:"A";
+		content:"";
 	}
 }

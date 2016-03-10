@@ -6,6 +6,18 @@
  * started at 23/02/2016
  */
 .services{
+	&__elt{
+		&:hover{
+			.services__heading::before{
+				color: $focusColor;
+			}
+			.fake-button{
+	 	 		background-color: $focusColor;
+	 			box-shadow: 0 0.3em 0 0 $focusColor;
+			}
+		}
+	 
+	}
 	&__link{
 	text-decoration: none;
 	text-transform: uppercase;
@@ -23,10 +35,10 @@
 	}
 	&__heading{
 		font: bold 1.3rem/1.5 "OpenSans";
-		color: #7f8c8c;
+		color: $headingTextColor;
 		&::before{
 			font: normal 6rem/1 "Glyphs";
-			color: #62bdbd;
+			color: $mainColor;
 			-webkit-transition: all .25s ease-in-out;
 	   		-moz-transition: all .25s ease-in-out;
 	    	-ms-transition: all .25s ease-in-out;

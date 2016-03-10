@@ -6,7 +6,7 @@
  * started at 23/02/2016
  */
  .fake-button{
- 	background: #62a29a;
+ 	background: $mainColor;
 	border-radius: 0.4rem;
 	box-shadow: 0 0.3em 0 0 #528b86;
 	font: 600  1.4rem/1 "OpenSans"; /*semibold*/
@@ -23,8 +23,5 @@
 	    -ms-transition: all .25s ease-in-out;
 	     -o-transition: all .25s ease-in-out;
 	        transition: all .25s ease-in-out;
-	 &:hover{
-	 	 background-color: #e8645a;
-	 	 box-shadow: 0 0.3em 0 0 #e8645a;
-	 }
+	
  }
